@@ -1,0 +1,290 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/* ---------- whole page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Raleway', arial, helvetica, sans-serif;
+    color: #292727ec;
+}
+
+/* ----------------------sidebar */
+.sidebar {
+    height: 100%;
+    width: 21%;
+    margin-left: 14px;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d0d0ec;
+    padding: 20px 20px 0 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    line-height: 1.5;
+}
+
+.rent {
+    font-size: 20px;
+    color: #2c2a2aec;
+    line-height: 40px;
+    font-weight: 50;
+}
+
+.night {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 30;
+}
+
+.formbox {
+    margin-top: 30px;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: rgb(100, 92, 92);
+}
+
+button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: #cccccc;
+}
+.btn button{
+    font-size: 1rem;
+}
+.last a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    top: -3px;
+}
+
+.bgcolor {
+    box-sizing: border-box;
+    height: 60px;
+    line-height: 60px;
+}
+
+.bgcolor i {
+    font-size: 20px;
+}
+
+.last {
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.last .bgcolor i a {
+    margin-left: 5px;
+}
+
+.bgcolor:hover {
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+/* ---------------------apartment */
+.apartment {
+    padding: 20px;
+    height: 100vh;
+    width: 45rem;
+    background-color: white;
+    /* border: 1px solid #ccc8c8ec; */
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4caf50;
+    font-weight: 30;
+}
+
+.bigimage {
+    width: 42rem;
+    padding-top: 20px;
+
+}
+
+.it {
+    position: relative;
+    align-items: center;
+}
+
+.LP {
+    position: absolute;
+    bottom: 10px;
+    color: #f1f1f1;
+    background-color: black;
+    padding: 18px;
+}
+
+.imglist {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.img1 {
+    width: 9.5rem;
+    height: 6rem;
+    opacity: 0.5;
+}
+
+.img1:hover {
+    opacity: 1.0;
+}
+
+/* ------------------------ the space section */
+.space {
+    height: 12rem;
+    padding: 20px;
+    column-count: 2;
+}
+
+/* -------------Amenities section */
+h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.box {
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.box i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/* -------------extra info */
+.extra {
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.extraInfo i {
+    position: relative;
+    top: 6px;
+}
+
+#sub.button {
+    width: 220px;
+
+}
+
+#contact.extra {
+    font-size: 30px;
+    font-weight: 30;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#c {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+#c i {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    overflow-y: hidden;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.sub_containerr{
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.cancelbtn{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+.sub_input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90%;
+    align-items: center;
+    border: 2px solid red;
+    /* margin: auto; */
+    border: 1px solid #cccccc;
+}
+.loginBTN{
+    align-items: center;
+    width: auto;
+    margin-left: 28rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
