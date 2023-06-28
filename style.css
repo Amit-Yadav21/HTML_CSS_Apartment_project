@@ -295,11 +295,3 @@ h4 {
 }
 
 /* -------------------------------------------- */
-.bigimage-container {
-    text-align: center;
-    opacity: 0.5;
-  }
-
-  .bigimage-container.active {
-    opacity: 1;
-  }
