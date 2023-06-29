@@ -1,0 +1,2 @@
+This is my task link: https://www.w3schools.com/w3css/tryw3css_templates_apartment_rental.htm. 
+In this, I used HTML, CSS, and JavaScript (JS DOM).
